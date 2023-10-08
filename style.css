@@ -1,0 +1,35 @@
+body{
+    background-color:#d9d9f2;
+}
+.box{
+    background-color:#b8b8e7; 
+    padding-top: 25px; 
+    width:700px; 
+    height: 300px;
+    margin-top:4cm;
+}
+#clock{
+    font-size: 45px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:#881be2;
+}
+
+.btn_div{
+    text-align: center;
+    margin-top: 30px;  
+}
+.set_btn{
+    background-color:#d9d9f2; 
+    border-radius: 30px; 
+    color:white;
+    border:none; 
+    margin-right: 30px;
+}
+.clear_btn{
+    background-color:#881be2; 
+    border-radius: 30px; 
+    color:white;
+    border:none;
+}

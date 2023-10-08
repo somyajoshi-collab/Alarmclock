@@ -1,0 +1,27 @@
+<html>
+   <head>
+      <title>Alarm Clock</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     
+      <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <section>
+         <div class="container box">
+            <div id="clock"></div>
+            
+            <input type="datetime-local" name="alarmType" value="" class="form-control" onchange="setAlarmTime(this.value)">
+            
+            <div class="btn_div">
+               <button type="button" class="btn btn-primary set_btn" value="" onclick="setAlarm()">Set Alarm</button>
+               <button type="button" class="btn btn-primary clear_btn" value="" onclick="clearAlarm()">Clear Alarm</button>
+            </div>
+        </div>
+      </section>
+      <script src="clock.js">
+      
+      </script>
+   </body>
+  
+</html>
